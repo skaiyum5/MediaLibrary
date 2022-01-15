@@ -1,0 +1,40 @@
+
+    .area {
+      width: 100%;
+      height:auto;
+      padding: 15px;
+      
+      background: rgb(250, 249, 249);
+    }
+    #dropZone {
+      border: 2px dashed #bbb;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      padding: 50px;
+      text-align: center;
+      font: 21pt bold arial;
+      color: #bbb;
+    }
+
+
+
+    .btn-file {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-file input[type=file] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      min-width: 100%;
+      min-height: 100%;
+      font-size: 100px;
+      text-align: right;
+      filter: alpha(opacity=0);
+      opacity: 0;
+      outline: none;
+      cursor: inherit;
+      display: block;
+    }
+
+
