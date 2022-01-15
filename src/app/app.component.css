@@ -1,2 +1,7 @@
 .box-sizing{box-sizing: border-box;}
 .float{float: left;}
+td img{
+    height: 50px; width: 50px;
+    margin: 5px;
+    margin-right: 2em;
+}

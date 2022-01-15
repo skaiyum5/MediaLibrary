@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DatatableComponent } from './datatable/datatable.component';
 import { AddPhotoComponent } from './add-photo/add-photo.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ShowPhotoComponent } from './show-photo/show-photo.component';
@@ -12,7 +11,6 @@ import { ShowPhotoComponent } from './show-photo/show-photo.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DatatableComponent,
     AddPhotoComponent,
     ShowPhotoComponent
   ],
